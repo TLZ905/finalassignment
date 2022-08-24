@@ -8,7 +8,4 @@ st.write(pd.DataFrame({
     'Species': ['Iris-sentosa', 'Iris-versicolor', 'Iris-virginica']
 }))
 
-from PIL import Image
-image = Image.open('sunrise.jpg')
-
-st.image(image, caption='Sunrise by the mountains')
+st.image("https://www.pexels.com/photo/landscape-nature-sky-man-6620743/")
